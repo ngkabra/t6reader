@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "T6 Reader",
+    "version": "0.1",
+    "description": "Summarizes long paragraphs on a webpage.",
+    "permissions": [
+      "activeTab",
+      "https://api.openai.com/*",
+      "<all_urls>"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "T6 Read"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+  

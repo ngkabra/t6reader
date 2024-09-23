@@ -1,0 +1,4 @@
+/* You can define additional styles here if needed */
+p {
+  transition: all 0.3s ease;
+}
