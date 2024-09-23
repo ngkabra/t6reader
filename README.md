@@ -6,7 +6,7 @@ To use this, you'll need an OpenAI API Key: so you need to set up a developer ac
 
 ## ⚠️ Major Disclaimers ⚠️
 
-1. **This is not good code**. It was written quickly, by ChatGPT o1-preview. I have no idea of Firefox extension development and I am not very good at JavaScript. The code is probably not well-structured, and certainly not battle tested. The only reason I'm putting this code here is for people to play with.
+1. **This is not good code**. It was written quickly, by ChatGPT o1-preview. I have no idea of Firefox extension development and I am not very good at JavaScript. The code is probably not well-structured, and certainly not battle tested. The only reason I'm putting this code here is for people to play with. I've spent less than an hour on this code—in fact, I've probably spent more time on this README than everything else.
 2. **There are no tests**, and I have no idea if this extension will break things or not. It’s just for playing around.
 3. **Use at your own risk**. I make no claims about its suitability for any purpose.
 
