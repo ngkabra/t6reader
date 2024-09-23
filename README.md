@@ -18,6 +18,8 @@ This Firefox extension does two main things when you click its toolbar button:
 1. Adds a blue box around each paragraph on the webpage.
 2. If a paragraph has more than 200 characters, it summarizes that paragraph using OpenAI’s API and displays the summary in a green box above the paragraph. That way, I can read the summary and decide whether to skip to the next paragraph or read the paragraph in detail. 
 
+Screeshot:
+
 ![Screenshot of this extension in use](screenshot.png)
 
 In the screenshot above, any paragraph with 200  or characters is outlined in blue color, and a summary of the paragraph is inserted just above it (green box). Shorter paragraphs are left as is.
@@ -42,7 +44,7 @@ Here’s how you can install and run this extension locally in Firefox:
     - Click on **"This Firefox"**.
     - Click on **"Load Temporary Add-on..."**.
     - In the file dialog, navigate to the folder where you downloaded and extracted this project, and select the `manifest.json` file.
-    - The extension should now be loaded, and its icon will appear in your toolbar. (If you don't see a "T6" icon on your toolbar, use ChatGPT to figure out how to get the icon on your toolbar.)
+    - The extension should now be loaded, and its icon will appear in your toolbar. (If you don't see a ![Extension Icon](icon.png) icon on your toolbar, use ChatGPT to figure out how to get the icon on your toolbar.)
 
 4. **Test the extension**:
     - Go to any webpage with paragraphs of text.
