@@ -18,7 +18,7 @@ This Firefox extension does two main things when you click its toolbar button:
 1. Adds a blue box around each paragraph on the webpage.
 2. If a paragraph has more than 200 characters, it summarizes that paragraph using OpenAI’s API and displays the summary in a green box above the paragraph. That way, I can read the summary and decide whether to skip to the next paragraph or read the paragraph in detail. 
 
-Screeshot:
+Screenshot:
 
 ![Screenshot of this extension in use](screenshot.png)
 
@@ -29,12 +29,13 @@ In the screenshot above, any paragraph with 200  or characters is outlined in bl
 Here’s how you can install and run this extension locally in Firefox:
 
 1. **Download the code**:
-    - Click the green **Code** button at the top of this GitHub page and choose **Download ZIP**.
-    - Extract the ZIP file somewhere on your computer.
+    - Click the green **Code** button at the top of this GitHub page and choose 
+**Download ZIP**.
+    - Extract the ZIP file somewhere on your computer. Remember the location.
 
 2. **Edit the `content.js`**:
     - Open the file `content.js` in a text editor (e.g., Notepad on Windows or TextEdit on Mac).
-    - Find the placeholder line in the file that says `"YOUR_OPENAI_API_KEY"`. Replace that with your actual OpenAI API key. 
+    - In the first line of the file replace `"YOUR_OPENAI_API_KEY"` with your actual OpenAI API key. 
         - If you don’t know how to get an API key, you can ask ChatGPT, and it will explain how to get one from the OpenAI website.
     - It currently uses gpt-4o-mini, one of the cheapest models. The summaries won't be great. If you're OK with spending a little more money to get better summaries, change this to gpt-4o.
 
